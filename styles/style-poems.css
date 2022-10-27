@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* CONFIGURAÇÕES INICIAIS */
+
+:root
+{
+    --background-h-f: #171718;
+    --background-m: #1f2124;
+}
+
+body
+{
+    background-color: var(--background-m);
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+}
+
+.centralizado
+{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+}
+
+/* MENU */
+
+#nav-icon1 span{
+    display: block;
+    margin: 4px;
+    height: 0.3vw;
+    width: 2vw;
+    background: aliceblue;
+    border-radius: 9px;
+}
+
+.dp-menu ul
+{
+    list-style-type: none;
+    padding: 7px;
+    background-color: var(--background-h-f);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    font-size: 1vw;
+}
+
+.dp-menu ul ul
+{
+    display: none;
+    position: absolute;
+}
+
+.dp-menu ul li
+{
+    display:inline-block;
+}
+
+.dp-menu ul li:hover ul
+{
+    display: block;
+    width: 10%;
+    box-shadow: rgb(red, black, red);
+}
+
+.nav1
+{
+    margin-left: 10%;
+}
+
+.nav2
+{
+    float: right;
+    margin-right: 10%;
+}
+
+.link:hover
+{
+    color: rgb(188, 195, 201);
+}
+
+/* PÁGINA */
+
+.poemas
+{
+    margin-left: 5%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 1.5vw;
+    text-align: center;
+}
+
+.img
+{
+    width: 50%;
+}
+
+ul
+{
+    padding: 5%;
+}
+
+/* RODAPÉ */
+
+.foot
+{
+    position: absolute;
+    width: 100%;
+    height: 3vw;
+    top: end;
+    background: #171718;
+    font-size: 1vw;
+}

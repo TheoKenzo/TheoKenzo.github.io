@@ -1,0 +1,50 @@
+:root
+{
+    --cor-fundo: rgb(31, 20, 41);
+    --cor-primaria: rgb(173, 173, 173);
+    --cor-hover: rgb(161, 4, 4);
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding: 7px;
+    margin-top: -0.199cm;
+    margin-left: -0.199cm;
+    width: 100%;
+}
+
+ul
+{
+    background-color: var(--cor-fundo);
+    position: relative;
+}
+
+ul li
+{
+    display:inline-block;
+}
+
+ul li a
+{
+    color: var(--cor-primaria);
+    text-decoration: none;
+    padding: 5px;
+    display:inline-block;
+    transition: background .3s;
+}
+
+/*Sub menu*/
+
+ul ul
+{
+    display: none;
+    position: absolute;
+}
+
+ul li:hover ul
+{
+    display: block;
+    width: 1.99cm;
+    box-shadow: rgb(red, black, red);
+}
