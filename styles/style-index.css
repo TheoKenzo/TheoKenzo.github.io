@@ -81,6 +81,17 @@ body
 
 /* PÁGINA */
 
+.titulo-principal
+{
+    text-align: center;
+}
+
+.titulo-principal:first-letter
+{
+    font-size: 5vw;
+    color: rgb(180, 0, 0);
+}
+
 .img
 {
     width: 20%;
