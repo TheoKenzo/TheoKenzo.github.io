@@ -81,11 +81,6 @@ body
 
 /* PÁGINA */
 
-p
-{
-    text-align: justify;
-}
-
 .sobre-mim
 {
     display: inline-block;
@@ -95,6 +90,34 @@ p
 .link:hover
 {
     color: rgb(188, 195, 201);
+}
+
+.logo_dark_cat_poems
+{
+    width: 10vw;
+}
+
+h2
+{
+    font-size: 1.2vw;
+}
+
+p
+{
+    text-align: justify;
+    font-size: 1vw;
+}
+
+ul li 
+{
+    font-size: 1vw;
+}
+
+.pixel_art
+{
+    display: block;
+    margin: 0 auto;
+    width: 45%;
 }
 
 /* RODAPÉ */
@@ -107,4 +130,66 @@ p
     top: end;
     background: linear-gradient(90deg, var(--background-h-f), #1d1e1f, var(--background-h-f));
     font-size: 1vw;
+}
+
+/* ADAPTAÇÃO PARA OUTRAS TELAS */
+
+/* CELULAR */
+
+@media screen and (max-width: 767px)
+{
+    .dp-menu ul
+    {
+        font-size: 2vw;
+    }
+
+    h2
+    {
+        font-size: 2.2vw;
+    }
+
+    p
+    {
+        font-size: 2vw;
+    }
+
+    ul li 
+    {
+        font-size: 2vw;
+    }
+
+    .foot
+    {
+        font-size: 2vw;
+    }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) and (max-width:1023px)
+{
+    .dp-menu ul
+    {
+        font-size: 1.3vw;
+    }
+
+    h2
+    {
+        font-size: 1.5vw;
+    }
+
+    p
+    {
+        font-size: 1.3vw;
+    }
+
+    ul li
+    {
+        font-size: 1.3vw;
+    }
+
+    .foot
+    {
+        font-size: 1.3vw;
+    }
 }

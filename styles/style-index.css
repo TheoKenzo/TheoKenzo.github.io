@@ -12,7 +12,7 @@ body
 {
     background: linear-gradient(var(--background-m), #353638, var(--background-m));
     font-family: 'Poppins', sans-serif;
-    color: aliceblue;
+    color: #f0f8ff;
 }
 
 .centralizado
@@ -84,6 +84,7 @@ body
 .titulo-principal
 {
     text-align: center;
+    font-size: 3vw;
 }
 
 .titulo-principal:first-letter
