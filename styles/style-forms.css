@@ -138,10 +138,54 @@ input
     font-size: 1vw;
 }
 
-@media screen and (max-width: 600px)
+/* ADAPTAÇÃO PARA OUTRAS TELAS */
+
+/* CELULAR */
+
+@media screen and (max-width: 767px)
 {
+    .dp-menu ul
+    {
+        font-size: 2vw;
+    }
+
+    .foot
+    {
+        font-size: 2vw;
+    }
+
     .label
     {
         font-size: 2vw;
+    }
+
+    p
+    {
+        font-size: 2vw;
+    }
+}
+
+/* TABLET */
+
+@media screen and (min-width: 768px) and (max-width:1023px)
+{
+    .dp-menu ul
+    {
+        font-size: 1.3vw;
+    }
+
+    .foot
+    {
+        font-size: 1.3vw;
+    }
+
+    .label
+    {
+        font-size: 1.3vw;
+    }
+
+    p
+    {
+        font-size: 1.3vw;
     }
 }
